@@ -4,10 +4,21 @@ import Gif from './gif.jsx';
 import GifList from './gif_list.jsx';
 
 class App extends Component {
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     gifs: [
+  //       { id: "fSvqyvXn1M3btN8sDh"},
+  //       { id: "fSvqyvXn1M3btN8sDh"}
+  //     ],
+  //     selectedGifId: "fSvqyvXn1M3btN8sDh"
+  //   }
+  // }
   render() {
-    const gifs = [
+    const gifs =  [
+      { id: "fSvqyvXn1M3btN8sDh"},
+      { id: "fSvqyvXn1M3btN8sDh"}
     ];
-
     return(
       <div>
         <div className="left-scene">

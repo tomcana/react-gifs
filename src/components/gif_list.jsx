@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Gif from './gif.jsx';
 
 class GifList extends Component {
   render() {
